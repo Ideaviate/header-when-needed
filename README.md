@@ -111,8 +111,8 @@ as well. To show the navigation, simply pass `"show"` as the only parameter when
 
 ### Uninitialize the plugin
 
-If you want to get rid of the headerWhenNeeded navigation you've applied to an element,
-`.headerWhenNeeded()` supply a method for that as well. By passing `"destroy"` as a single
+If you want to get rid of the plugin you've initialized on an element,
+`.headerWhenNeeded()` provide a method for that as well. By passing `"destroy"` as a single
 parameter when calling `.headerWhenNeeded()`, the element is returned to its default state, 
 as it were before you first initialized the plugin.
 
