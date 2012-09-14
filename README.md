@@ -97,3 +97,26 @@ even if the user hover the navigation.
 	$("#id-of-navigation-element").headerWhenNeeded({ keepWhenHover: false });
 
 Default value: `true`
+
+### Show/hide navigation programatically
+
+`.headerWhenNeeded()` provide methods to show/hide the navigation programatically
+as well. To show the navigation, simply pass `"show"` as the only parameter when you call
+`.headerWhenNeeded()`. To hide the navigation, pass `"hide"` instead.
+
+	// Initialize headerWhenNeeded
+    $("#my-navigation").headerWhenNeeded();
+	// Show the navigation
+	$("#my-navigation").headerWhenNeeded("show");
+
+### Uninitialize the plugin
+
+If you want to get rid of the headerWhenNeeded navigation you've applied to an element,
+`.headerWhenNeeded()` supply a method for that as well. By passing `"destroy"` as a single
+parameter when calling `.headerWhenNeeded()`, the element is returned to its default state, 
+as it were before you first initialized the plugin.
+
+	// Initialize headerWhenNeeded
+    $("#my-navigation").headerWhenNeeded();
+	// Get rid of the plugin behavior
+	$("#my-navigation").headerWhenNeeded("destroy");
