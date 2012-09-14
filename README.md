@@ -23,7 +23,7 @@ navigation is hidden to give room for the content.
 Reference the jQuery library and, `header-when-needed.js` or `header-when-needed.min.js`.
 
 To initialize the plugin, select your navigation-element and call the `.headerWhenNeeded()`
-method. Make sure you wait for the DOM-ready event, befor you initialize the plugin:
+method. Make sure you wait for the DOM-ready event, before you initialize the plugin:
 
     $(function () {
         $("#id-of-navigation-element").headerWhenNeeded();
@@ -64,7 +64,7 @@ vertical trigger point, given in pixels from the top of the document.
 If both `activationElement` and `activationYOffset` is set, then `activationElement` has
 precedence.
 
-#### visble
+#### visible
 
 The `visible` option specify for how long the navigation should be visible after the user stop
 scrolling. The value should be a positive integer, and specify the number of milliseconds the
